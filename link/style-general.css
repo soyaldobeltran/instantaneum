@@ -32,6 +32,7 @@ menu{
 a, li{
     list-style: none;
     text-decoration: none;
+    font-weight: 600;
 }
 .logo-container{
     width: 200px; /* Ajusta el ancho del contenedor según tus necesidades */
