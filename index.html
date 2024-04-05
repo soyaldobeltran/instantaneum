@@ -3,11 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets-landing/style.css">
+    <script src="https://kit.fontawesome.com/d1a0740cd8.js" crossorigin="anonymous"></script>
     <title>Instantaneum</title>
 </head>
 <body class="">
-    <h1>Bienvenido a Instantaneum</h1>
-    <a href="./link/dental.html">Dental</a>
-    <a href="./link/spa.html">Spa</a>
+    <main>
+        <nav class="navbar">
+            <div class="navbar-container" id="nav-cont">
+                <a href="#"><li>Inicio</li></a>
+                <a href="#servicios"><li>Servicios</li></a>
+                <a href="#contactanos"><li>Contactanos</li></a>
+                <a href="#agenda"><li>Agenda</li></a>
+            </div>
+            <div class="nav-tonggle" ">
+                <img class="tonggle" id="tonggle" src="./assets-landing/img/icons/tonggle.svg" alt="menu">
+            </div>
+            <div>
+                <h2>Instantaneum</h2>
+                <!-- <a href="#"><img class="nav-logo" src="./assets/img/logo.png" alt="logo-dental"></a> -->
+            </div>
+            <a href="#agenda"><button class="btn-agenda">Agenda</button></a>   
+        </nav>
+        <section class="content">
+            <h1>¡Gestiona tus Citas y Horarios de Forma Eficiente con Instantaneum!</h1>
+        </section>
+        <section class="container" loading="lazy">
+            <article>
+                <h2>¿Qué es Instantaneum?</h2>
+                <p>Instantaneum es una innovadora herramienta diseñada para simplificar la gestión de citas y horarios para negocios como spas, consultorios dentales, salones de belleza y más. Con Instantaneum, puedes decir adiós a las confusiones de agendas y reservaciones.</p>
+            </article>
+            <img  src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+            <article>
+                <h2>Integración con Google Calendar</h2>
+                <p>Sincroniza automáticamente tus citas con tu Google Agenda, manteniendo todo organizado en un solo lugar.</p>
+            </article>
+            <img  src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <article>
+                <h2>Reservaciones en Línea: </h2>
+                <p>Permite a tus clientes reservar citas fácilmente a través de tu página personalizada de Instantaneum.</p>
+            </article>
+            <img  src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </section>
+        <section class="beneficios" loading="lazy">
+            <h2>¿Por qué Elegir Instantaneum?</h2>
+            <div class="card">
+                <i class="fas fa-clock fa-lg"></i>
+                <p><b>Ahorra Tiempo:</b> Simplifica la gestión de citas y horarios, dedicando menos tiempo a tareas administrativas</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-heart fa-lg"></i>
+                <p><b>Mejora la Experiencia del Cliente:</b> Ofrece un proceso de reserva fácil y conveniente para tus clientes, aumentando su satisfacción</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-trophy fa-lg"></i>
+                <p><b>Aumenta la Eficiencia:</b> Optimiza tu agenda y obten una gestión centralizada.</p>
+            </div>
+        </section>
+
+        
+        <section class="precios" loading="lazy">
+            <div>
+                <h2>Precios:</h2>
+            <p>Ofrecemos planes flexibles para adaptarnos a las necesidades de tu negocio. Comienza con nuestra suscripción básica y aprovecha todas las funcionalidades de Instantaneum.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-rocket fa-lg"></i>
+                <h2>Starter</h2>
+                <ul>
+                    <li>Integración con Google Calendar ✅</li>
+                    <li>Diseño Personalizado ❌</li>
+                    <li>Links Ilimitados (Hasta 2 links)❌</li>
+                    <li>Nombre de Dominio ❌</li>
+                </ul>
+                <h2>$179.00 MXN/Mes</h2>
+                <button class="btn-card">Contratar</button>
+            </div>
+            <div class="card">
+                <i class="fas fa-building fa-lg"></i>
+                <h2>Business</h2>
+                <ul>
+                    <li>Integración con Google Calendar ✅</li>
+                    <li>Diseño Personalizado ✅</li>
+                    <li>Links Ilimitados (Hasta 5 links)❌</li>
+                    <li>Nombre de Dominio ❌</li>
+                </ul>
+                <h2>$249.00 MXN/Mes</h2>
+                <button class="btn-card">Contratar</button>
+            </div>
+            <div class="card">
+                <i class="fas fa-gem fa-lg"></i>
+                <h2>Diamond</h2>
+                <ul>
+                    <li>Integración con Google Calendar ✅</li>
+                    <li>Diseño Personalizado ✅</li>
+                    <li>Links Ilimitados ✅</li>
+                    <li>Nombre de Dominio ✅</li>
+                </ul>
+                <h2>$379.00 MXN/Mes</h2>
+                <button class="btn-card">Contratar</button>
+            </div> 
+        </section>
+
+    </main>
+    <footer class="footer" loading="lazy">
+        <p class="copy">&copy <a href="" target="_blank">Instantaneum</a></p>
+    </footer>
+    <script src="./script/app.js"></script>   
 </body>
 </html>
