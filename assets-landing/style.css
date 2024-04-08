@@ -26,46 +26,6 @@ body{
     "footer"
     ;
 }
-
-.content{
-    gap: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 44rem;
-    padding: 1rem;
-}
-
-
-img{
-    width: 100%;
-    border-radius: 3rem;
-}
-h1{
-    font-size: 3rem;
-    color: #8a21f3;
-    text-align: center;
-}
-h2{
-    font-size: 2rem;
-}
-p{
-    font-size: 1.3rem;
-}
-
-.container{
-    color: white;
-    width: 100%;
-    display: grid;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-    grid-template-areas: 
-    "cont-1" 
-    "cont-2"
-    ;
-}
 .navbar{
     width: 100%;
     max-width: 1000px;
@@ -74,13 +34,13 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    align-self: center;
     background-color: white;
     margin-top: 22px;
     box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.150);
     border-radius: 50px;
-    grid-area: nav;
     z-index: 1;
+    grid-area: nav;
+
 }
 .navbar-container{
     border-radius: 40px;
@@ -129,20 +89,53 @@ p{
     height: 40px;
     width: 80px;
 }
-.btn-agenda{
-    border: 1px solid #2196F3;
-    border-radius: 10px;
-    background-color: transparent;
-    font-weight: 600;
-    color: #424242;
-}
-.btn-agenda:hover{
-    background-color: #2196F3;
-    color: white;
-}
+
 .nav-tonggle{
     color: #424242;
 }
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 44rem;
+    padding: 1rem;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 3rem;
+}
+h1{
+    font-size: 3rem;
+    color: #8a21f3;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.3rem;
+}
+
+.container{
+    padding: 0 1rem;
+    width: 100%;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    grid-template-areas: 
+    "cont-1" 
+    "cont-2"
+    ;
+}
+.container article{
+    width: 100%;
+}
+
 .beneficios{
     color: white;
     margin-bottom: 20px;
@@ -226,10 +219,9 @@ p{
     text-decoration: none;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
 
     .container{
-        width: 100%;
         grid-template-areas: 
         "cont-1 cont-2" 
         ;
