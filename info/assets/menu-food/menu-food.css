@@ -81,7 +81,8 @@ a:hover{
 
 .menu{
     display: grid;
-    width: 100%;
+    width: 80vw;
+    height: auto;
     gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
@@ -120,4 +121,5 @@ a:hover{
     .perfil menu{
         flex-direction: row;
     }
+
 }
