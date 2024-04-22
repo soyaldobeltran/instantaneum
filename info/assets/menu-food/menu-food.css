@@ -107,6 +107,10 @@ a:hover{
     padding: 0;
 }
 
+.salto-card{
+    width: 100%;
+}
+
 .btn-inicio button{
     height: 3rem;
     text-align: center;
