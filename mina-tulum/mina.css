@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Navegacion del menu */
+.nav-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem
+}
+.nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-menu ul a {
+    cursor: pointer;
+    border: 1px solid #4d4d4d;
+    text-decoration: none;
+    color: black;
+    padding: .8rem;
+    border-radius: .2rem;
+}
+.nav-menu ul a:hover{
+    background-color: #4d4d4d;
+    color: white;
+}
+/* Titulos */
+.t-1{
+    border: 1px  solid #4d4d4d;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    padding: .8rem;
+    border-radius: .2rem;
+    text-transform: uppercase;
+}
+.t-2{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+}
+
+/* Tarjetas de platillos */
+
+.card{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 1rem;
+    padding: .5rem;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.card img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card p {
+    font-style: italic;
+}
+
+.card span{
+    font-weight: 600;
+    align-self: center;
+}
+
+/* Menu Grid */
+.menu-grid{
+    display: grid;
+    height: auto;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding-bottom: 2rem;
+}
