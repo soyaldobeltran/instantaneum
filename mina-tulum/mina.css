@@ -31,7 +31,7 @@ main{
     display: none;
 }
 .nav-active{
-    padding: 4rem 0;
+    padding: 6rem 0;
     width: 100vw;
     height: 100vh;
     background-color: white;
