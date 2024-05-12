@@ -7,12 +7,16 @@
     <link rel="icon" href="./assets/img/favicon.png" type="image/x-png">
     <meta name="description" content="¡Deliciosas comidas y ambiente playero te esperan! Disfruta de excelentes platillos y buenos momentos todo el día, cada día, rodeado por la refrescante atmósfera de la playa.">
     <link rel="stylesheet" href="./mina.css">
+    <script src="https://kit.fontawesome.com/d1a0740cd8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <img src="./assets/img/MINA_LOGO_NEGRO.webp" alt="logo mina tulum" width="100%">
-    </header>
-    <nav>
+    <nav class="nav-bar">
+        <a href="#"><img src="./assets/img/MINA_LOGO_NEGRO.webp" alt="logo mina tulum"></a>
+        <div class="nav-tonggle" ">
+            <img class="tonggle" id="tonggle" src="./assets/img/tonggle.svg" alt="menu">
+        </div>
+    </nav>
+    <nav class="nav" id="nav-cont">
         <section class="nav-menu">
         <section class="nav-menu">
             <h3>Desayunos</h3>
@@ -1429,5 +1433,6 @@
                 </div>
             </section>
     </main>
+    <script src="./script/app.js"></script> 
 </body>
 </html>
