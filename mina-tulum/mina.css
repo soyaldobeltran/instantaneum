@@ -20,6 +20,7 @@ main{
     align-items: center;
     justify-content: space-between;
     z-index: 2;
+    border-bottom: .6px solid #4d4d4d;
 }
 .nav-bar img{
     height: 3rem;
