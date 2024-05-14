@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <a href="#"><img src="./assets/img/MINA_LOGO_NEGRO.webp" alt="logo mina tulum"></a>
+        <a href="./index.html" "><img src="./assets/img/MINA_LOGO_NEGRO.webp" alt="logo mina tulum"></a>
         <div class="nav-tonggle" ">
             <img class="tonggle" id="tonggle" src="./assets/img/tonggle.svg" alt="menu">
         </div>
@@ -22,9 +22,9 @@
             <h3>Desayunos</h3>
             <small>7:30 am - 12:00 pm</small>
             <ul>
-                <a href="#clasicos">Clásicos</a>
-                <a href="#tostadas">Tostadas</a>
-                <a href="#huevos">Huevos</a>
+                <a href="#clasicos" onclick="cerrarNavbar()">Clásicos</a>
+                <a href="#tostadas" onclick="cerrarNavbar()">Tostadas</a>
+                <a href="#huevos" onclick="cerrarNavbar()">Huevos</a>
             </ul>
         </section>
         <br>
@@ -32,40 +32,52 @@
             <h3>Lunch / Cenas</h3>
             <small>12:00 pm - 10:30 pm</small>
             <ul>
-                <a href="#entradas">Entradas</a>
-                <a href="#ensaladas">Ensaladas</a>
-                <a href="#tacobar">Taco Bar</a>
-                <a href="#grill">Grill</a>
-                <a href="#pizza">Pizza</a>
-                <a href="#pasta">Pasta</a>
+                <a href="#entradas" onclick="cerrarNavbar()">Entradas</a>
+                <a href="#ensaladas" onclick="cerrarNavbar()">Ensaladas</a>
+                <a href="#tacobar" onclick="cerrarNavbar()">Taco Bar</a>
+                <a href="#grill" onclick="cerrarNavbar()">Grill</a>
+                <a href="#pizza" onclick="cerrarNavbar()">Pizza</a>
+                <a href="#pasta" onclick="cerrarNavbar()">Pasta</a>
             </ul>
         </section>
         <br>
         <section class="nav-menu">
             <h3>Postres</h3>
-            <ul><a href="#postres">Click Aquí</a></ul>
+            <ul><a href="#postres" onclick="cerrarNavbar()">Click Aquí</a></ul>
         </section>
         <br>
         <section class="nav-menu">
             <h3>Extras</h3>
             <ul>
-                <a href="#extras">Click Aquí</a>
+                <a href="#extras" onclick="cerrarNavbar()">Click Aquí</a>
             </ul> 
         </section>
         <br>
         <section class="nav-menu"> 
             <h3>Bebidas</h3>
             <ul>
-                <a href="#cafe">Café</a>
-                <a href="#jugos">Jugos</a>
-                <a href="#smoothies">Smoothies</a>
-                <a href="#refrescos">Refrescos</a>
-                <a href="#bar">Bar</a>
+                <a href="#cafe" onclick="cerrarNavbar()">Café</a>
+                <a href="#jugos" onclick="cerrarNavbar()">Jugos</a>
+                <a href="#smoothies" onclick="cerrarNavbar()">Smoothies</a>
+                <a href="#refrescos" onclick="cerrarNavbar()">Refrescos</a>
+                <a href="#bar" onclick="cerrarNavbar()">Bar</a>
             </ul>
         </section>
+        <br>
+        <section class="nav-menu">
+            <h3>Contáctanos</h3>
+            <ul>
+                <a href="#contacto" onclick="cerrarNavbar()">Click Aquí</a>
+            </ul> 
+        </section>
     </nav>
-    <br>
     <main>
+        <section class="portada">
+            <article class="portada-items">
+                <img src="./assets/img/MINA_LOGO_NEGRO.webp" alt="logo-mina">
+            </article>
+        </section>
+        <br>
         <header>
             <h2 class="t-1">Desayunos</h2>
         </header>
@@ -1433,6 +1445,32 @@
                 </div>
             </section>
     </main>
+    <footer class="contacto" id="contacto">
+        <section>
+            <h3>Haz tus reservas por:</h3>
+            <br>
+            <p>+52 984 309 43 41</p>
+            <p>reservas@minatulum.net</p>
+        </section>
+        <section>
+            <h3>Comentarios en:</h3>
+            <br>
+            <article class="social-media">
+                <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150813-d10446469-Reviews-Mina-Tulum_Yucatan_Peninsula.html?m=19905" class="icon" target="_blank"><img src="./assets/img/tripadvisor.png" alt="tripadvisor"></a>
+                <a href="https://maps.app.goo.gl/4ffVaV2UpxYpAc5r7" class="icon" target="_blank"><img src="./assets/img/google-maps.png" alt="google-maps"></a>
+            </article>
+        </section>
+
+        <section>
+            <h3>Síguenos en:</h3>
+            <br>
+            <article class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=61550591597554" class="icon" target="_blank"><img src="./assets/img/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/minatulum/" class="icon" target="_blank"><img src="./assets/img/instagram.png" alt="instagram"></a>
+            </article>
+        </section>
+
+    </footer>
     <script src="./script/app.js"></script> 
 </body>
 </html>
