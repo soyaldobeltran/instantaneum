@@ -1,239 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    padding: 0;
     box-sizing: border-box;
-    font-family: Montserrat ,Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
-    
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 body{
-    overflow-x: hidden;
-    background: url('https://images.unsplash.com/photo-1698920717731-6819a3de9739?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') fixed no-repeat center / cover;
-    margin: 0 auto;
-    max-width: 1000px;
-    /* background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(93,93,93,1) 42%, rgba(255,250,238,1) 93%); */
+    scroll-behavior: smooth;
+    font-size: 1.5rem;
+}
+/* Grilla */
+.menu-grid{
     display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-areas: 
-    "nav"
-    "nav-active"
-    "header"
-    "content" 
-    "container"
-    "beneficios"
-    "precios"
-    "footer"
-    ;
-}
-.navbar{
-    width: 100%;
-    max-width: 1000px;
-    height: 80px;
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    justify-self: center;
-    align-items: center;
-    background-color: white;
-    margin-top: 22px;
-    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.150);
-    border-radius: 50px;
-    z-index: 1;
-    grid-area: nav;
-
-}
-.navbar-container{
-    border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    opacity: 0;
-    transition: opacity .5s ease;
-    gap: 20px;
-    width: 200px;
-    padding: 30px;
-    background-color: white;
-    list-style: none;
-    text-decoration: none;
-    left: -50%;
-    top: 110px;
-    position: fixed;
-    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.150);
-    grid-area: nav-active;
-}
-.navbar-container a{
-    text-decoration: none;
-    color: #424242;
-}
-.navbar-container a:hover{
-    color: #2196F3;
-}
-.tonggle{
-    width: 2.8rem;
-    transform: rotate(0deg);
-    animation: alternate-reverse;
-    transition: transform 0.5s ease;
-}
-.active{
-    transform: rotate(-45deg);
-    animation: alternate-reverse;
-    transition: transform 0.5s ease;
-}
-.nav-active{
-    left: 3%;
-    opacity: 1;
-    transition: opacity .5s ease;
-    
-}
-.nav-logo, .nav-tonggle, .btn-agenda{
-    cursor: pointer;
-    height: 40px;
-    width: 80px;
-}
-
-.nav-tonggle{
-    color: #424242;
-}
-.content{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 44rem;
-    padding: 1rem;
-}
-
-
-img{
-    width: 70%;
-    border-radius: 3rem;
-    justify-self: center;
-}
-h1{
-    font-size: 3rem;
-    color: #8a21f3;
-    text-align: center;
-}
-h2{
-    font-size: 2rem;
-}
-p{
-    font-size: 1.3rem;
-}
-
-.container{
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
-    color: white;
-    display: grid;
-    align-items: center;
-    gap: 4rem;
-    grid-template-areas: 
-    "cont-1" 
-    "cont-2"
-    ;
-}
-.container article{
-    width: 100%;
-}
-
-.beneficios{
-    color: white;
-    margin-bottom: 20px;
-    width: 100%;
     height: auto;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-area: beneficios;
-    padding: 1rem;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding-bottom: 2rem;
 }
-.precios{
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
-    width: 100%;
-    height: auto;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-area: precios;
-    padding: 1rem;
-}
-.precios li{
-    list-style: none;
-}
+
+/* Tarjetas */
 .card{
-    width: 100%;
-    border: solid rgba(255, 255, 255, 0.344) .5px;
-    border-radius: 3rem;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.253); /* Color de fondo translúcido */
-    backdrop-filter: blur(10px) saturate(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%);
-    /* Sombra */
-    -webkit-box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Prefijo para Safari y Chrome antiguos */
-    -moz-box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Prefijo para Firefox */
-    box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Sombra estándar */
-}
-.btn-card{
-    font-size: 1rem;
-    font-weight: 700;
-    color: white;
-    width: 100%;
-    border: solid rgba(255, 255, 255, 0.344) .5px;
-    border-radius: 3rem;
-    padding: 30px;
-    background-color: #2196F3;
-    cursor: pointer;
-    
-}
-.btn-card:hover{
-    background-color: rgba(188, 100, 243, 0.760); /* Color de fondo translúcido */
-    backdrop-filter: blur(10px) saturate(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%);
-    /* Sombra */
-    -webkit-box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Prefijo para Safari y Chrome antiguos */
-    -moz-box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Prefijo para Firefox */
-    box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Sombra estándar */
-}
-.footer{
+    min-width: 250px;
+    max-width: 400px;
     display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-self: center;
+    gap: 1rem;
+    padding: .5rem;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.card img{
     width: 100%;
-    border: solid rgba(255, 255, 255, 0.344) .5px;
-    border-radius: 3rem;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.253); /* Color de fondo translúcido */
-    backdrop-filter: blur(10px) saturate(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%);
-    /* Sombra */
-    -webkit-box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Prefijo para Safari y Chrome antiguos */
-    -moz-box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Prefijo para Firefox */
-    box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.3); /* Sombra estándar */
-    grid-area: footer;
-}
-.footer a {
-    color: white;
-    text-decoration: none;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
 }
 
-@media screen and (min-width: 900px){
-
-    .container{
-        grid-template-areas: 
-        "cont-1 cont-2" 
-        ;
-    }
-    .navbar-container{
-        left: 11%;
-    }
-    img{
-        width: 100%;
-    }
+.card p {
+    font-style: italic;
 }
