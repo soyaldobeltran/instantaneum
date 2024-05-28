@@ -25,6 +25,7 @@ section{
 .t-style{
     background-color: black;
     color: white;
+    padding: 2rem 1rem;
 }
 /* Grilla */
 .menu-grid{
