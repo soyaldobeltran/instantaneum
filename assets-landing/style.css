@@ -63,7 +63,7 @@ section{
     -moz-backdrop-filter: blur(10px);
     -o-backdrop-filter: blur(10px);
     -ms-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     padding: 20px;
     text-align: center;
 }
@@ -95,7 +95,6 @@ section{
     -moz-backdrop-filter: blur(10px);
     -o-backdrop-filter: blur(10px);
     -ms-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 20px;
     text-align: center;
 }
