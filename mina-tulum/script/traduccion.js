@@ -1,5 +1,6 @@
 const translations = {
     en: {
+        opciones:"Options >",
         contactanos:"Contact Us",
         click_aqui:"Click Here",
         desayuno_hoteles:"Breakfast Hotel",
