@@ -124,6 +124,7 @@ const translations = {
         camaron:"Shrimp",
         salmon:"Salmon",
         tocino:"Bacon",
+        chapulines:"Exotic topping for your guacamoles",
         vegetales:"Vegetables",
         papas_francesa:"French Fries",
         scoop_helado:"Ice Cream Scoop 100 g",
