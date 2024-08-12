@@ -80,6 +80,10 @@ button{
     display: flex;
     gap: 1rem;
 }
+.card p:first-of-type:not(.card-light p){
+    font-size: 3rem;
+    font-weight: 700;
+}
 .card button{
     background-color: #0a0a0a;
     color: #FFFFFF;
