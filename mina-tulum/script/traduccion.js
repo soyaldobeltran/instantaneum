@@ -44,7 +44,9 @@ const translations = {
         mina_ceviche_d:"Abundant mix of fresh seafood and fish: octopus, grouper and shrimp. With onion, avocado, tomato and cilantro marinated in lime. 250g",
         tostada_atun:"Tuna Tostada",
         tostada_atun_d:"A marinated toast with capers, fresh, celery, apple and tuna. 250g",
-        
+        esquite_d:"Delicious mix of flavors with pozolero corn, mayonnaise sauce, onion, jalapeño and lime butter, grilled shrimp, grasshoppers and mint oil. 220 gr",
+        coctel_camarones:"Shrimp Cocktail",
+        coctel_camarones_d:"From the sea to your table the best selection of shrimp with cocktail sauce and avocado, onion and tomato.  600 gr",
         ensaladas:"Salads",
         capresse_d:"The original recipe with fresh mozzarella cheese, pesto and basil. 220g",
         cesar:"Caesar",
@@ -110,6 +112,9 @@ const translations = {
         fettuchini_alfredo_p:"Tempting fettuccine pasta with ham, bacon and house sauce. 420 g",
         frutti_di_mare_d:"The favorite of the beach. Delicious fettucchini (200 g) with white wine, butter and seafood. Shrimp (100 g), mussel (60 g), clam (60 g) and octupus (70 g)",
         pomodoro_d:"From our Italian secret recipe. Fettuccini with house sauce and spices. 420 g",
+        arroz_marinera:"Sea Rice",
+        arroz_marinera_d:"Rich rice mixed with the best seafood, shrimp, squid, mussels, clams, fish, octopus, crab, 800 grs. for two people (Saturdays and Sundays).",
+
         postres:"Desserts",
         volcan_dulce_leche:"Dulce de Leche Volcano",
         volcan_dulce_leche_d:"Rich melt-in-your-mouth dessert with dulce de leche base, vanilla ice cream and artificial coral. 210 g",
