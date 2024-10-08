@@ -77,6 +77,8 @@ const translations = {
 
         hamburguesa_mina:"MINA Burger",
         hamburguesa_mina_d:"Rich 100% beef(320 g) in brioche bun, with caramelized onion, caramelized apple, bacon and grilled cheese. Served with french fries. 180g",
+        hamburguesa_camaron:"Shrimp Burger",
+        hamburguesa_camaron_d:"Fresh and juicy shrimp, perfectly seasoned and browned, creating an explosion of marine flavor in every bite.",
         costilla_bbq:"BBQ Rib",
         costilla_bbq_d:"Juicy pork rib (300 g) bathed in our exquisite homemade bbq sauce. Served with sweet corn",
         alitas_bbq:"BBQ Wings",
