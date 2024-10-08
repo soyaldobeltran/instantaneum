@@ -24,6 +24,8 @@ const translations = {
         tostada_salmon_d:"A crispy toast with smoked salmon, capers and fried pore. 280 g",
         tostada_vegetariana:"Vegetarian Toast",
         tostada_vegetariana_d:"A crispy toast with grilled vegetables and vegan cheese. 280g",
+        tostada_trio:"Tostada Trio",
+        tostada_trio_d:"1 salmon toast, 1 marlin toast and 1 tuna toast.",
         huevos:"Eggs",
         huevos_rancheros_d:"Sensational fried eggs, ranchera sauce and corn toast. 400g",
         huevos_gusto:"Eggs to taste",
