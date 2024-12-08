@@ -1,5 +1,6 @@
 const translations = {
     en: {
+        mesagge:"Don't forget to tell the waiter about any allergies or medical proscriptions, thank you.",
         opciones:"Options >",
         contactanos:"Contact Us",
         click_aqui:"Click Here",

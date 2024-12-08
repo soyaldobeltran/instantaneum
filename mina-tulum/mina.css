@@ -6,6 +6,13 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+.mesagge{
+    max-width: 300px;
+    display: fixed;
+    font-size: .5rem;
+    font-weight: 600;
+    text-align: center;
+}
 
 .portada{
     background-color: black;
