@@ -1,6 +1,7 @@
 const translations = {
     en: {
         mesagge:"Don't forget to tell the waiter about any allergies or medical proscriptions, thank you.",
+        imagenesreferenciales:"The following images may be referential",
         opciones:"Options >",
         contactanos:"Contact Us",
         click_aqui:"Click Here",
@@ -68,15 +69,15 @@ const translations = {
         pasta_calabaza_d:"Soft spaghetti made with a rich white wine butter sauce served with toasted bread, cherry tomatoes, cilantro, onion, lime and parmesan chesse. 300g",
         pescado_tempura:"Tempura Fish",
         pescado_tempura_d:"Unbeatable dish with 4 corn tortillas, cabbage salad and avocado sauce. Fish. 320g",
-        arrachera_d:"Authentic dish with 4 corn tortillas, onion, cilantro and avocado sauce. Arrachera. 320 g",
+        arrachera_d:"Four corn tortilla tacos with refried beans, arrachera steak with grilled onion, served with radish and cilatro. 320g",
         pastor_d:"Appetezing dish with 4 corn tortillas, onion, cilantro and pineapple. Pastor 320 g",
         cochinita_d:"Hot dish with 4 corn tortillas and pickled red onion. Cochinita 320 g",
         camaron:"Shrimp",
         camaron_d:"Colorful dish and unique combination of flavors with 4 flour tortillas, grated cucumber, grated carrot and a rich tamarind sauce. Shrimp 320g.",
         salmon:"Salmon",
-        salmon_d:"Rich combination with Ponsu sauce, carrot and cucumber salad, chipotle mayonnaise and fresh salmon with 4 corn tortillas. Salmon 180 g",
+        salmon_d:"Rich combination of salmon with perijil sauce, mashed potatoes with truffle oil, served with fresh jicama with green apple, cilantro and radish. 320g.",
         pollo:"Chicken",
-        pollo_d:"Original grillled chicken taco with chimichurri, white onion, cilantro and house sauce with 4 corn tortillas. Chicken 200g",
+        pollo_d:"Four corn tortilla tacos, grilled chicken with guacamole, mexican sauce, cilantro and radish. 320g.",
 
         hamburguesa_mina:"MINA Burger",
         hamburguesa_mina_d:"Rich 100% beef(320 g) in brioche bun, with caramelized onion, caramelized apple, bacon and grilled cheese. Served with french fries. 180g",
