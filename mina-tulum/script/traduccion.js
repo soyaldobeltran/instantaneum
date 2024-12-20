@@ -192,6 +192,8 @@ const translations = {
         cubeta:"Bucket",
         cubeta_d:"6 national beers not including craft beers",
         vino_champagne:"Wine & Champagne",
+        combo_botella:"Combo Bottle",
+        combo_botella_d:"500gr of Top Sirlon with 350gr Lobster tail with two side dishes of your choice and a bottle of wine of your choice.",
         copa_vino:"Wine Glass",
         copa_vino_d:"White or Red. 150ml",
         botella_vino:"Bottle of Wine",
