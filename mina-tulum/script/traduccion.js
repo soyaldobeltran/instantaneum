@@ -100,7 +100,7 @@ const translations = {
         pulpo_gallega:"Galician Style Octupus",
         pulpo_gallega_d:"Galician style octopus, seasonned in the best MINA style and served with potatoes with fine herbs. 350 g",
         parrillada_mina:"Mina Grill",
-        parrillada_mina_d:"Celestial grill for two peopple with octopus, seasoned, in the best MINA style and served with potatoes with fine herbs. 350 g.",
+        parrillada_mina_d:"Celestial grill with octopus (90gm) squid (100gm) mussel (100gm) clam (80gm) fish (80gm) and shrimp (80gm) for 2 people Total: 540gm",
         filete_mignon:"Filet Mignon",
         filete_mignon_d:"Sumptous medallions (250 g) with mashed potatoes, grilled asparagus and red wine sauce. 280 g",
         rib_eye_d:"Selection of prime beef (400 g) and garnish. 250g",
