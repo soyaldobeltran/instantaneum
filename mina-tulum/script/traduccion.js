@@ -94,7 +94,7 @@ const translations = {
         salmon_glaseado:"Glazed Salmon",
         salmon_glaseado_d:"Wood-fired salmon fillet (200 g) with mashed potatoes, grilled vegetables and balsamic sauce. 280g",
         pescado_entero:"Whole Fish",
-        pescado_entero_d:"Baked or wood-fired catch of the day, served with mashed potatoes, vegetables, french fries and mixed salad. 1,800 g",
+        pescado_entero_d:"Baked or wood-fired catch of the day, served with mashed potatoes, vegetables, french fries and mixed salad. 1,000 gr",
         camarones_gusto:"Shrimp to taste",
         camarones_gusto_d:"6 pieces of the largest shrimp with 2 garnishes of your choice. 200g",
         pulpo_gallega:"Galician Style Octupus",
