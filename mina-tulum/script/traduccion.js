@@ -116,7 +116,7 @@ const translations = {
         cuatro_quesos_d:"Succulent crispy pizza cooked in a wood-fired oven with tomato sauce, mozzarella cheese, blue cheese, Monterey cheese and parmesan cheese. 250 g of dough and 320 g of ingredients",
         ingrediente_adicional:"Additional ingredient 80g $50, Cream Cheese Shore $100",
         fettuchini_alfredo_p:"Tempting fettuccine pasta with ham, bacon and house sauce. 420 g",
-        frutti_di_mare_d:"The favorite of the beach. Delicious fettucchini (70 g) with white wine, butter and seafood. Shrimp (70 g), mussel (70 g), clam (70 g) and octupus (70 g)",
+        frutti_di_mare_d:"The favorite of the beach. Delicious fettucchini (200 g) with white wine, butter and seafood. Shrimp (70 g), mussel (70 g), clam (70 g) and octupus (70 g)",
         pomodoro_d:"From our Italian secret recipe. Fettuccini with house sauce and spices. 420 g",
         arroz_marinera:"Sea Rice",
         arroz_marinera_d:"Rich rice mixed with the best seafood, shrimp, squid, mussels, clams, fish, octopus, crab, 800 grs. for two people (Saturdays and Sundays).",
