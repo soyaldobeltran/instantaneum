@@ -185,6 +185,7 @@ const translations = {
         conac_hennessy_special:"Cognac Hennessy Special",
         mezcales:"Mezcals",
         licores:"Liquors",
+        nota_licor:"They can be accompanied with the following foods",
 
         cerveza:"Beer",
         cerveza_mina:"Mina Beer",
