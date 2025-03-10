@@ -125,7 +125,9 @@ const translations = {
         pomodoro_d:"From our Italian secret recipe. Fettuccini with house sauce and spices. 420 g",
         arroz_marinera:"Sea Rice",
         arroz_marinera_d:"Rich rice mixed with the best seafood, shrimp, squid, mussels, clams, fish, octopus, crab, 800 grs. for two people (Saturdays and Sundays).",
-
+        con_botella:"With a bottle of wine",
+        con_botella_d:"500 grs of syrlon with 500 grs of lobster and a bottle of wine",
+        
         postres:"Desserts",
         volcan_dulce_leche:"Dulce de Leche Volcano",
         volcan_dulce_leche_d:"Rich melt-in-your-mouth dessert with dulce de leche base, vanilla ice cream and artificial coral. 210 g",
