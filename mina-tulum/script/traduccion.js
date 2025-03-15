@@ -119,6 +119,8 @@ const translations = {
         pepperoni_d:"Succulent crispy pizza cooked in a wood-fired oven with tomato sauce, mozarella cheese and pepperoni. 250 g of dough and 320 g of ingredients.",
         cuatro_quesos:"4 Cheeses",
         cuatro_quesos_d:"Succulent crispy pizza cooked in a wood-fired oven with tomato sauce, mozzarella cheese, blue cheese, Monterey cheese and parmesan cheese. 250 g of dough and 320 g of ingredients",
+        pizza_mariscos:"Seafood",
+        pizza_mariscos_d:"Succulent crispy pizza cooked in a wood-fired oven with tomato sauce, mozzarella cheese, seafood mix (depending on availability).",
         ingrediente_adicional:"Additional ingredient 80g $50, Cream Cheese Shore $100",
         fettuchini_alfredo_p:"Tempting fettuccine pasta with ham, bacon and house sauce. 420 g",
         frutti_di_mare_d:"The favorite of the beach. Delicious fettucchini (200 g) with white wine, butter and seafood. Shrimp (70 g), mussel (70 g), clam (70 g) and octupus (70 g)",
