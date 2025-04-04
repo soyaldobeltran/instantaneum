@@ -186,6 +186,7 @@ const translations = {
         sangria_d:"1 liter jug with red wine lemonade.",
         clericot_d:"1 liter pitcher with red wine, lemonade, Bacardi Rum and fruit mix.",
         coctel_sabores:"Flavor Cocktail",
+        coctel_sabores_d:"Passion fruit, Strawberry, Jamaica, Pineapple, Tamarind. Others",
         ron:"Run",
         ginebras:"Gin",
         conac:"Cognac",
