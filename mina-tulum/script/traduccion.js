@@ -45,7 +45,7 @@ const translations = {
         empanadas_horneadas:"Baked Empanadas",
         empanadas_horneadas_d:"(2pcs. to choose) Fiery empanadas baked in a wood-fired oven, with the best variety: Arrachera, spinach, capresse or chicken. 185g",
         mina_ceviche:"Mina Ceviche",
-        mina_ceviche_d:"Abundant mix of fresh seafood and fish: octopus, grouper and shrimp. With onion, avocado, tomato and cilantro marinated in lime. 250g",
+        mina_ceviche_d:"Abundant mix of fresh seafood and fish: grouper and shrimp. With onion, avocado, tomato and cilantro marinated in lime. 250g",
         calamar_rebozado:"Coated Squid",
         calamar_rebozado_d:"150 grams of coated squid and 100 grams of french fries",
         ostiones_frescos_6:"6 Fresh Oysters",
