@@ -101,7 +101,7 @@ const translations = {
         pescado_entero:"Whole Fish",
         pescado_entero_d:"Baked or wood-fired catch of the day, served with mashed potatoes, vegetables, french fries and mixed salad. 1,000 gr",
         camarones_gusto:"Shrimp to taste",
-        camarones_gusto_d:"6 pieces of the largest shrimp with 2 garnishes of your choice. 200g",
+        camarones_gusto_d:"450gr of shrimp with head accompanied with mashed potatoes.",
         pulpo_gallega:"Galician Style Octupus",
         pulpo_gallega_d:"Galician style octopus, seasonned in the best MINA style and served with potatoes with fine herbs. 350 g",
         parrillada_mina:"Mina Grill",
