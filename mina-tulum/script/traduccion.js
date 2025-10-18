@@ -112,7 +112,7 @@ const translations = {
         mar_tierra:"Surf and Turf",
         mar_tierra_d:"Fiery grilled with fresh jumbo shrimp (250 g), premium beef fillet (200 g) and rice or grilled veggerables.",
         langosta:"Lobster",
-        langosta_d:"(Seasonal) Choice of garnish. *Choice of garnish: Mashed potato, vegetables, mixed",
+        langosta_d:"500g of Lobster (Seasonal) Choice of garnish. *Choice of garnish: Mashed potato, vegetables, mixed",
 
         margarita_d:"Succulent crispy pizza cooked in a wood-fired oven with tomato sauce, mozzarella cheese, basil. 250 g of dough and 320 g of ingredients.",
         arugula_d:"Succulent crispy pizza cooked in a wood-fired oven with tomato sauce, mozzarella cheese, proscuitto, arugula and parmesan. 250 g of dough and 320 g of ingredients",
