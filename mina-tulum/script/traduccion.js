@@ -199,7 +199,7 @@ const translations = {
         cerveza_mina:"Mina Beer",
         cerveza_triton:"Beer Tower",
         cerveza_triton_d:"3 Liters of Light or Dark Beer",
-        cerveza_misil:"Light or Dark Beer",
+        cerveza_misil:"Beer",
         cerveza_tulum:"Tulum Beer",
         bohemia_clara:"Bohemia Clear",
         bohemia_oscura:"Bohemia Dark",
