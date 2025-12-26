@@ -109,6 +109,8 @@ const translations = {
         filete_mignon:"Filet Mignon",
         filete_mignon_d:"Sumptous medallions (250 g) with mashed potatoes, grilled vegetables. 280 g",
         rib_eye_d:"Selection of prime beef (400 g) and garnish. 250g",
+        t_bone_d:"Selection of prime beef (400 g) and garnish. 250g",
+        porter_house_d:"Selection of prime beef (680 g) and garnish. 250g",
         mar_tierra:"Surf and Turf",
         mar_tierra_d:"Fiery grilled with fresh jumbo shrimp (250 g), premium beef fillet (200 g) and rice or grilled veggerables.",
         langosta:"Lobster",
